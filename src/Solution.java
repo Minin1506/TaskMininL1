@@ -3,7 +3,7 @@ public class Solution {
     public static void main(String[] args) {
 
         double a, b, c;
-        double D;
+        double d;
         // Код для рандомных переменных
 
         a = Math.random()*200-100;
@@ -22,14 +22,14 @@ public class Solution {
        // b = in.nextDouble();
        // c = in.nextDouble();
 
-        D = b * b - 4 * a * c;
-        System.out.println(" Дискриминант = " +D);
-        if (D > 0) {
+        d = b * b - 4 * a * c;
+        System.out.println(" Дискриминант = " +d);
+        if (d > 0) {
             double x1, x2;
-            x1 = (-b - Math.sqrt(D)) / (2 * a);
-            x2 = (-b + Math.sqrt(D)) / (2 * a);
+            x1 = (-b - Math.sqrt(d)) / (2 * a);
+            x2 = (-b + Math.sqrt(d)) / (2 * a);
             System.out.println("1й корень= " + x1 + "  2й корень= " + x2);
-        } else if (D == 0) {
+        } else if (d == 0) {
             double x;
             x = -b / (2 * a);
             System.out.println("Корень =" + x);
