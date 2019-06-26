@@ -16,7 +16,7 @@ public class Solution {
 
         // Code for user's values
 
-        //System.out.println("Enter your values ​​for a, b и с variables : ax^2 +bx +c =0 ");
+        //System.out.println("Enter your values ​​for a, b and с variables : ax^2 +bx +c =0 ");
         //Scanner in = new Scanner(System.in);
         //a = in.nextDouble();
         //b = in.nextDouble();
