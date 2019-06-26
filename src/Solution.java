@@ -6,9 +6,9 @@ public class Solution {
         double d;
         // Code with random values
 
-        a = Math.random()*200-100;
-        b = Math.random()*200-100;
-        c = Math.random()*200-100;
+        a = Math.random()*100;
+        b = Math.random()*100;
+        c = Math.random()*100;
         System.out.println(" Random value for а = " +a);
         System.out.println(" Random value for b = " +b);
         System.out.println(" Random value for c = " +c);
