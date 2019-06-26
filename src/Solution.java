@@ -28,7 +28,7 @@ public class Solution {
             double x1, x2;
             x1 = (-b - Math.sqrt(d)) / (2 * a);
             x2 = (-b + Math.sqrt(d)) / (2 * a);
-            System.out.println("1st root= " + x1 + "  2nd root= " + x2);
+            System.out.println("1st root= " + x1 + " 2nd root= " + x2);
         } else if (d == 0) {
             double x;
             x = -b / (2 * a);
