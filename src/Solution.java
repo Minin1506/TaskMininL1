@@ -4,7 +4,7 @@ public class Solution {
 
         double a, b, c;
         double d;
-        // Код для рандомных переменных
+        // Code with random values
 
         a = Math.random()*200-100;
         b = Math.random()*200-100;
@@ -14,13 +14,13 @@ public class Solution {
         System.out.println(" Случайная переменная c = " +c);
 
 
-        // Код для пользовательских переменных
+        // Code for user's values
 
-       // System.out.println("Введите a, b и с для уравнения: ax^2 +bx +c =0 ");
-       // Scanner in = new Scanner(System.in);
-       // a = in.nextDouble();
-       // b = in.nextDouble();
-       // c = in.nextDouble();
+        //System.out.println("Введите a, b и с для уравнения: ax^2 +bx +c =0 ");
+        //Scanner in = new Scanner(System.in);
+        //a = in.nextDouble();
+        //b = in.nextDouble();
+        //c = in.nextDouble();
 
         d = b * b - 4 * a * c;
         System.out.println(" Дискриминант = " +d);
