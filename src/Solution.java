@@ -34,7 +34,7 @@ public class Solution {
             x = -b / (2 * a);
             System.out.println("Root =" + x);
         } else {
-            System.out.println("No solutions ");
+            System.out.println("No solutions");
         }
 
     }
